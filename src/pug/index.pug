@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Blog Home - Start Bootstrap Template
+        title Veridian Core - Home
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -21,26 +21,25 @@ html(lang='en')
         // Responsive navbar
         nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
             .container
-                a.navbar-brand(href='#!') Start Bootstrap
+                a.navbar-brand(href='#!') Veridian Core
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarSupportedContent.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto.mb-2.mb-lg-0
                         li.nav-item
-                            a.nav-link(href='#') Home
+                            a.nav-link.active(aria-current='page', href='#') Home
                         li.nav-item
                             a.nav-link(href='#!') About
                         li.nav-item
                             a.nav-link(href='#!') Contact
                         li.nav-item
-                            a.nav-link.active(aria-current='page', href='#') Blog
 
         // Page header with logo and tagline
         header.py-5.bg-light.border-bottom.mb-4
             .container
                 .text-center.my-5
-                    h1.fw-bolder Welcome to Blog Home!
-                    p.lead.mb-0 A Bootstrap 5 starter layout for your next blog homepage
+                    h1.fw-bolder Welcome to Veridian
+                    p.lead.mb-0 Your personal cyberspace, and the digital subway to your mind
 
         // Page content
         .container
@@ -54,50 +53,20 @@ html(lang='en')
                         a(href='#!')
                             img.card-img-top(src='assets/1743343219573.jpg', alt='Veridian Scene')
                         .card-body
-                            .small.text-muted January 1, 2023
-                            h2.card-title Featured Post Title
+                            .small.text-muted March 25, 2025
+                            h2.card-title MIPS Engine
                             p.card-text
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!
-                            a.btn.btn-primary(href='#!') Read more →
+                                | For any engine that accepts user or networked code, its crucial that code has no more access to the user machine than necessary.
+                                | I figured some ways to do this, but wanted an interesting mechanism that played into the nature of Veridian.
+                                | One such way was to create a virtual processor that took calculations and special commands, and supplied them to the backend.
 
                 // Side widgets
                 .col-lg-4
-
-                    // Search widget
-                    .card.mb-4
-                        .card-header Search
-                        .card-body
-                            .input-group
-                                input.form-control(type='text', placeholder='Enter search term...', aria-label='Enter search term...', aria-describedby='button-search')
-                                button#button-search.btn.btn-primary(type='button') Go!
-
-                    // Categories widget
-                    .card.mb-4
-                        .card-header Categories
-                        .card-body
-                            .row
-                                .col-sm-6
-                                    ul.list-unstyled.mb-0
-                                        li
-                                            a(href='#!') Web Design
-                                        li
-                                            a(href='#!') HTML
-                                        li
-                                            a(href='#!') Freebies
-                                .col-sm-6
-                                    ul.list-unstyled.mb-0
-                                        li
-                                            a(href='#!') JavaScript
-                                        li
-                                            a(href='#!') CSS
-                                        li
-                                            a(href='#!') Tutorials
-
                     // Side widget
                     .card.mb-4
                         .card-header Side Widget
                         .card-body
-                            | You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!
+                            | The construction of this site is ongoing, I hope to use this as a place to document changes and link new builds as they're completed.
 
         // Footer
         footer.py-5.bg-dark
